@@ -4,7 +4,7 @@
   "main": "server.js",
   "license": "MIT",
   "scripts": {
-    "start": "cd client/mern_azure_example && yarn",
+    "start": "cd client/mern_azure_example && npm i && npm run build && cd ../.. && node server",
     "dev": "node server"
   },
   "dependencies": {
