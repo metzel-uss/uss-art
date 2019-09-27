@@ -1,0 +1,15 @@
+
+
+.App ul li {
+    padding: 10px 20px;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    line-height: 1;
+}
+
+.App li .drag {
+    margin-right: 15px;
+    cursor: move;
+    width: 100%;
+}
